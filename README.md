@@ -6,8 +6,8 @@ utilizando rotas como Get, Post, Put, Delete
 
 ### Tecnologias usadas:
 
--React router
--Node.js
--Express.js
--MongoDb
+-React router <br/>
+-Node.js <br/>
+-Express.js <br/>
+-MongoDb <br/>
 -JavaScript
