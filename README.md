@@ -10,8 +10,9 @@ Projeto feito para melhorar habilidades de  integração de API ao front end
 
 ### Tecnologias usadas:
 
-- React router <br/>
-- Node.js <br/>
-- Express.js <br/>
-- MongoDb <br/>
+- React Router 
+- Node.js
+- Express.js 
+- MongoDb 
 - JavaScript
+- API/RestAPI
