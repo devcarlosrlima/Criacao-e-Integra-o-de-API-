@@ -2,7 +2,7 @@
 
 Projeto feito para melhorar habilidades de  integração de API ao front end
 
-### Utilizando rotas como 
+### Requisições Utilizadas
 - Get
 - Post
 - Put
