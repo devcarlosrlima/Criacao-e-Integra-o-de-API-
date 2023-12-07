@@ -1,7 +1,7 @@
 # IntegrandoAPI
 
-Projeto feito para melhorar habilidades de  integração de API ao front end.
-O projeto exigia que o cliente pudesse pesquisar o livro por categoria, editora ou titulo e também  pudesse cadastrar, editar e deletar livros se assim desejasse. 
+Criei uma API do zero, para integra-lá ao front-end de um projeto de biblioteca online. Nesta biblioteca o usuario iria poder, adicionar, remover, editar e visualizar livros adicionados.
+a API é foi construida utilizando as tecnologias e requisições citadas abaixo, a mesma é conectada ao banco de dados MongoDB.
 
 ### Requisições Utilizadas
 - Get
