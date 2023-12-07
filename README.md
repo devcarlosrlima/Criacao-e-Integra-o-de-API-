@@ -17,3 +17,42 @@ O projeto exigia que o cliente pudesse pesquisar o livro por categoria, editora 
 - MongoDb 
 - JavaScript
 - API/RestAPI
+
+  ### Parte do Codigo
+
+    get: async (req, res) => {
+        try {
+            const id = req.params.id;
+            const livro = await LivroModel.findById(id);
+
+        if(!livro) {
+        res.status(404).json({msg: "Livro não encontrado"});
+        return;
+        }
+
+            res.json(livro);
+
+        } catch (error) {
+            console.log(error);
+        }
+    },
+
+  
+    delete: async(req, res) => {
+        try{
+            const id = req.params.id
+
+            const livro = await LivroModel.findById(id);
+
+            if(!livro) {
+                res.status(404).json({msg: "Livro não encontrado"});
+                return;
+            }
+                
+            const deleteLivro = await LivroModel.findByIdAndDelete(id);
+            res.status(200).json({deleteLivro, msg: "Livro excluido com sucesso!"})
+         } catch (error) {
+            console.log(error);
+        }
+    },
+
